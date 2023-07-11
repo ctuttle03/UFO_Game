@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFO</title>
+    <link rel="stylesheet" href="design.CSS">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="CheckBoxWrap">
+        <input type="checkbox" id="toggle" />
+        <label for="toggle">Hit Box</label>
+    </div>
+    <button onclick=GameStart()>Start</button>
+    <div class="keyboard">
+        <div class="key" id="keyW">W</div>
+        <div class="key" id="keyA">A</div>
+        <div class="key" id="keyS">S</div>
+        <div class="key" id="keyD">D</div>
+        <div class="key" id="Space">Space</div>
+      </div>      
+      <div class="mouse-buttons">
+        <div id="left-click" class="mouse-button">Shoot</div>
+        <div id="right-click" class="mouse-button">Block</div>
+      </div>
+      
+    <script src="Index.js"></script>
+</body>
+</html>
